@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타그램</title>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
+        sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <form action="#">
+
+            <div>
+
+                <div class="log-in">
+                    <div class="input-area">
+                        <div class="img1">
+                            <i data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
+                                style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yh/r/IS7e616CiR2.png&quot;); background-position: 0px 0px; background-size: 176px 258px; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div class="inputform">
+                            <input type="email" placeholder="전화번호, 사용자 이름 또는 이메일">
+                            <input type="password" placeholder="비밀번호">
+                            <button type="button" class="btn btn-primary b-c">로그인</button>
+                            <div class="sign-up">
+                                <div class=>
+                                    <div class="hr-sect">또는</div>
+                                    <img src="data:image/png;base64,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"
+                                        alt="fackbook" class="fbimg">
+
+                                    <a href="#" class="f-login">Fackbook으로 로그인</a>
+                                </div>
+
+                                <div class="pwlose">
+                                    비밀번호를 잊으셨나요?
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </form>
+    </header>
+
+    <!--main-->
+    <main>
+        <div class="su">
+            계정이 없으신가요? <a href="#"> 가입하기 </a>
+        </div>
+        <div class="down">앱을 다운로드 하세요.</div>
+
+        <div>
+            <img alt="App Store에서 다운로드" class="_aa5q" width="136px" height="40px"
+                src="https://static.cdninstagram.com/rsrc.php/v3/yi/r/cWx_hQBPmbo.png">
+            <img alt="Google Play에서 다운로드" class="_aa5q" width="136px" height="40px"
+                src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png">
+        </div>
+
+    </main>
+    <!--footer-->
+    <footer>
+        <div>
+            <a href="#">Meta</a>
+            <a href="#">소개</a>
+            <a href="#">블로그</a>
+            <a href="#">채용 정보</a>
+            <a href="#">도움말</a>
+            <a href="#">API</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">약관</a>
+            <a href="#">위치</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">연락처 업로드 & 비사용자</a>
+            <a href="#">Meta Verified</a>
+        </div>
+        <div>
+            <select>
+                <option value="1">한국어</option>
+                <option value="2">영어</option>
+                <option value="3">중국어</option>
+            </select>
+            <span
+                class="x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye x1fhwpqd xo1l8bm x1roi4f4 x1s3etm8 x676frb x10wh9bi x1wdrske x8viiok x18hxmgj"
+                dir="auto"
+                style="line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 16px;">© 2024
+                Instagram from Meta</span>
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
