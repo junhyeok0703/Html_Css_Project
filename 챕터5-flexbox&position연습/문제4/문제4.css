@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.box {
+
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(191, 23, 203);
+}
+
+.box1 {
+    background-color: gray;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+}

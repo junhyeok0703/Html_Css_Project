@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.big-box {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: black;
+    position: relative;
+
+}
+
+.sm-box {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border: 1px solid rgb(152, 17, 17);
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(191, 23, 203);
+}

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+
+}
+
+.right {
+    display: flex;
+    float: left;
+    margin-left: 8px;
+}
